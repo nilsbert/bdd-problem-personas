@@ -1,5 +1,7 @@
 # BDD Problem Personas
 
+<img src="https://github.com/nilsbert/bdd-problem-personas/blob/main/Cards/Pre-Mortem%20Personas.png?raw=true" width="150"/>
+
 Repository for **BDD Problem Personas** content — modular rules, player manual, examples, images, player aids, and translations.  
 Organized for clarity and collaboration with templates, consistent style, and versioned releases.  
 A single source of truth for players, playtesters, and editors.  
