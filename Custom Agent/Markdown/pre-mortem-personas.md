@@ -95,7 +95,7 @@ Highlights accessibility gaps with screen readers, keyboard navigation, and colo
 **Typical Behavior:**  
 - Tests with NVDA/VoiceOver  
 - Navigates without mouse  
-- Checks captions, labels, ARIA tags
+- Checks captions, labels, ARIA tags  
 
 **Detailed Problems:**  
 - Buttons unlabeled for screen readers  
@@ -146,9 +146,43 @@ Pushes systems with unusual but valid inputs. Protects against subtle, overlooke
 
 ---
 
+## Consistent Conny
+
+![Consistent Conny](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/05-ConsistentConny-removebg-preview.png) – *The Process Keeper*  
+**Quote:**  
+“If we change how we do it every time, how can we ever improve?”  
+
+**Profile:**  
+- **Age:** 36  
+- **Role/Background:** Agile Coach, Process Owner  
+- **Motivation:** Maintain stability and predictability  
+- **Behavior Style:** Structured, methodical, dislikes ad-hoc changes  
+
+**Description:**  
+Exposes problems caused by inconsistency and lack of standardization. Focuses on reproducibility, documentation, and version control.  
+
+**Risk Tags:**  
+- Maintainability, Process Stability, Reproducibility  
+
+**Typical Behavior:**  
+- Checks for undocumented shortcuts  
+- Questions deviations from standards  
+- Monitors version drift between environments  
+
+**Detailed Problems:**  
+- Different processes for same outcome  
+- Manual workarounds replacing automation  
+- Configuration inconsistencies across teams  
+
+**Example Tests:**  
+- Given two teams follow different deployment steps → Then audit reports mismatch.  
+- Given undocumented process change → Then system logs noncompliance alert.  
+
+---
+
 ## Poolside Phil
 
-![Poolside Phil](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/05-PoolsidePhil-removebg-preview.png) – *The Workation Surfer*  
+![Poolside Phil](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/06-PoolsidePhil-removebg-preview.png) – *The Workation Surfer*  
 **Quote:**  
 “Wi-Fi’s weak, I’ll try again later.”  
 
@@ -172,7 +206,7 @@ Shows resilience gaps in sync, retry, and offline handling.
 **Detailed Problems:**  
 - Upload stalls at 60%  
 - Duplicate creation from retry  
-- Offline cache not synced correctly
+- Offline cache not synced correctly  
 - Timeouts with no user feedback  
 
 **Example Tests:**  
@@ -183,7 +217,7 @@ Shows resilience gaps in sync, retry, and offline handling.
 
 ## Cleanup Carl
 
-![Cleanup Carl](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/06-CleanupCarl-removebg-preview.png) – *The Fixer*  
+![Cleanup Carl](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/07-CleanupCarl-removebg-preview.png) – *The Fixer*  
 **Quote:**  
 “I don’t make the mess, but I clean it up.”  
 
@@ -200,26 +234,26 @@ Represents admins dealing with bad or inconsistent data. Surfaces the need for s
 - Data Integrity, Maintainability  
 
 **Typical Behavior:**  
-- Manually cleans databases
+- Manually cleans databases  
 - Resolves duplicates  
 - Repairs failed imports  
 
-**Detailed Problems:**
-- He has no access to the data, nobody can fix it just in time
+**Detailed Problems:**  
+- No access to data for timely fix  
 - Duplicate records from retries  
 - Inconsistent states between systems  
-- Wrong permissions causing access chaos  
+- Wrong permissions causing chaos  
 - No rollback options → forced manual fixes  
 
 **Example Tests:**  
-- Ist there an Admin Interface for him
-- Can he access the data directly
+- Is there an Admin Interface for him?  
+- Can he access the data directly?  
 
 ---
 
 ## Nils Newby
 
-![Nils Newby](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/07-NilsNewby-removebg-preview.png) – *The Insecure Beginner*  
+![Nils Newby](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/08-NilsNewby-removebg-preview.png) – *The Insecure Beginner*  
 **Quote:**  
 “I’m not sure if I’m doing this right… but I’ll try anyway.”  
 
@@ -238,8 +272,8 @@ Exposes learnability and UX weaknesses. Makes repeated simple errors.
 **Typical Behavior:**  
 - Ignores help text  
 - Misunderstands mandatory fields  
-- Re-enters data multiple times
-- Has to navigate back and forth in processes to change data
+- Re-enters data multiple times  
+- Navigates back and forth to fix mistakes  
 
 **Detailed Problems:**  
 - Leaves fields blank by mistake  
@@ -249,13 +283,13 @@ Exposes learnability and UX weaknesses. Makes repeated simple errors.
 
 **Example Tests:**  
 - Given Nils leaves a required field empty → Then error highlights field.  
-- Given Nils retries → Then system prevents duplicate entry.
+- Given Nils retries → Then system prevents duplicate entry.  
 
 ---
 
 ## Confused Conrad
 
-![Confused Conrad](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/08-Confused_Conrad-removebg-preview.png) – *The Panic Clicker*  
+![Confused Conrad](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/09-Confused_Conrad-removebg-preview.png) – *The Panic Clicker*  
 **Quote:**  
 “If I click enough, something will work!”  
 
@@ -290,7 +324,7 @@ Tests system stability under erratic user behavior.
 
 ## Third-Party Theo
 
-![Third-Party Theo](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/09-Third-Party_Theo-removebg-preview.png) – *The Flaky Partner*  
+![Third-Party Theo](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/10-Third-Party_Theo-removebg-preview.png) – *The Flaky Partner*  
 **Quote:**  
 “Our API works… most of the time.”  
 
@@ -325,7 +359,7 @@ Represents unreliable external dependencies. Surfaces fragile integrations.
 
 ## Chaos Claus
 
-![Chaos Claus](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/10-ChaosClaus-removebg-preview.png) – *The Misconfigured Admin*  
+![Chaos Claus](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/11-ChaosClaus-removebg-preview.png) – *The Misconfigured Admin*  
 **Quote:**  
 “Nobody trained me, so I’ll just do it.”  
 
@@ -347,20 +381,20 @@ Causes chaos via misconfiguration and lack of documentation.
 - Overwrites configs directly  
 
 **Detailed Problems:**  
-- Breaks deployment config
+- Breaks deployment config  
 - Accidentally deletes permissions  
 - Corrupts DB settings  
 - Leaves undocumented “fixes”  
 
 **Example Tests:**  
-- Given Claus changes DB schema → Then system should warn about a corriupt schema
+- Given Claus changes DB schema → Then system warns about corrupt schema.  
 - Given config is invalid → Then deployment blocked with error.  
 
 ---
 
 ## Malicious Max
 
-![Malicious Max](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/11-Malicious_Max-removebg-preview.png) – *The Saboteur*  
+![Malicious Max](https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/main/Images/PortraitsWithTransparentBackground/12-Malicious_Max-removebg-preview.png) – *The Saboteur*  
 **Quote:**  
 “If it can be broken, I’ll break it.”  
 
