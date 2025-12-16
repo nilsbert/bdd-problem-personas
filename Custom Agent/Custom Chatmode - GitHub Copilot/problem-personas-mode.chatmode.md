@@ -1,5 +1,5 @@
 ---
-description: 'Describe what this custom agent does and when to use it.'
+description: 'A Custom Agent to generate realistic BDD scenarios based on Problem Personas. The Personas Knowledge Base is included in this file.'
 tools: []
 ---
 
