@@ -23,7 +23,7 @@ https://vscode.dev/redirect?url=vscode:chat-mode/install?url=https://raw.githubu
 )
 
 👉 Install in direct VS Code with fetching Personas: [![Install in VS Code](https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](
-https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/refs/heads/main/Custom%20Agent/Custom%20Chatmode%20-%20GitHub%20Copilot/problem-personas-mode-remote.agent.md)
+https://vscode.dev/redirect?url=vscode:chat-mode/install?url=https://raw.githubusercontent.com/nilsbert/bdd-problem-personas/refs/heads/main/Custom%20Agent/Custom%20Chatmode%20-%20GitHub%20Copilot/problem-personas-mode-remote.agent.md)
 
 👉 Explore all cards here → **[Cards Folder on GitHub](https://github.com/nilsbert/bdd-problem-personas/tree/main/Cards)**
 
